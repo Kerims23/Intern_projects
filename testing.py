@@ -3,7 +3,7 @@ t=turtle.Turtle()
 s=turtle.Screen()
 s.bgcolor('black')
 t.speed(10)
-col=['yellow','green','orange','white']
+col=['yellow','green','orange','blue']
 c=0
 
 for i in range(50):
