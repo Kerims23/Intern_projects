@@ -4,3 +4,6 @@ from openpyxl.chart import bar_chart, Reference
 def process_workbook(filename):
     wb=xl.load_workbook(filename)
     sheet=wb['sheet1']
+
+    for row in range(2, sheet.max_row+1):
+        cell=sheet.cell(row,3)
