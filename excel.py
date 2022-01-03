@@ -1,6 +1,7 @@
 import openpyxl as xl
 from openpyxl.chart import bar_chart, Reference
 
+#creating a def statment to load in file
 def process_workbook(filename):
     wb = xl.load_workbook(filename)
     sheet = wb['sheet1']
