@@ -11,6 +11,6 @@ websites=["www.yahoo.com","yahoo.com","www.bing.com","bing.com"]
 
 #start whoile loop
 while True:
-    if dt(dt.now().year, dt.now().month, dt.now().day,9) 
+    if dt(dt.now().year, dt.now().month, dt.now().day,9) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day,18):
   
   
