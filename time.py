@@ -16,6 +16,7 @@ while True:
         with open(hosts_path,'r+') as file:
             content=file.read()
             for site in websites:
+                if site in content
                 
         
   
