@@ -15,6 +15,8 @@ while True:
         print("sorry not allowed")
         with open(hosts_path,'r+') as file:
             content=file.read()
+            for site in websites:
+                
         
   
   
