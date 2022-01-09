@@ -17,6 +17,7 @@ while True:
             content=file.read()
             for site in websites:
                 if site in content
+                    pass
                 
         
   
