@@ -19,7 +19,7 @@ while True:
                 if site in content:
                     pass
                 else
-                    file.write()
+                    file.write(redirect)
         
   
   
