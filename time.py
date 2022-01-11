@@ -22,8 +22,8 @@ while True:
                     file.write(redirect+""+site+"\n")
     else:
         with open(host_path,'r') as file:
+            content-file.readlines()
             
-
         
   
   
