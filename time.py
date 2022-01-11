@@ -21,7 +21,9 @@ while True:
                 else:
                     file.write(redirect+""+site+"\n")
     else:
-        
+        with open(host_path,'r') as file:
+            
+
         
   
   
