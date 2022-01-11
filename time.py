@@ -23,7 +23,8 @@ while True:
     else:
         with open(host_path,'r') as file:
             content-file.readlines()
-            
+            file.seek(0)
+
         
   
   
