@@ -20,6 +20,8 @@ while True:
                     pass
                 else:
                     file.write(redirect+""+site+"\n")
+    else:
+        
         
   
   
