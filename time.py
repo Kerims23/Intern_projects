@@ -25,7 +25,7 @@ while True:
             content-file.readlines()
             file.seek(0)
             for line in content:
-                if not any(site in line for site in website):
+                if not any(site in line for site in websites):
                     
 
         
