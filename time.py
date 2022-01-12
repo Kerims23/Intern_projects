@@ -29,7 +29,7 @@ while True:
                     file.write(line)
             file.truncate()
         print("allowed access!")
-
+    time.sleep(5)
 
         
   
