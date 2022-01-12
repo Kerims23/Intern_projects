@@ -24,6 +24,9 @@ while True:
         with open(host_path,'r') as file:
             content-file.readlines()
             file.seek(0)
+            for line in content:
+                if not any(site in line for site in website):
+                    
 
         
   
