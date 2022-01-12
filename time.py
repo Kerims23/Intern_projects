@@ -26,6 +26,8 @@ while True:
             file.seek(0)
             for line in content:
                 if not any(site in line for site in websites):
+                    file.write(line)
+            
                     
 
         
