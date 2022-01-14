@@ -6,3 +6,5 @@ def triangle_shape(n):
         for p in range(2*i+1):
             print ('*', end=' ')
         print()
+
+#making pole shape 
