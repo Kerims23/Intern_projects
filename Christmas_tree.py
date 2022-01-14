@@ -1,3 +1,4 @@
+#making the triangle shape for tree
 def triangle_shape(n):
     for i in range(n):
         for o in range(n-i):
