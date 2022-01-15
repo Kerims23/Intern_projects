@@ -10,4 +10,4 @@ def insert_blob(emp_id, name, biodata_file):
     print("Insert Blob into python_employee table")
     try:
         connection=mysql.connector.connect(host='localhost', database='python_db', user='pynative', password='pynative@#29')
-        
+        cursor=connection.cursor()
