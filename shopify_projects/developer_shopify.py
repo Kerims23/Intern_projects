@@ -7,3 +7,4 @@ def convert_to_binary_data(filename):
     return binary_data
 
 def insert_blob(emp_id, name, biodata_file):
+    print("Insert Blob into python_employee table")
