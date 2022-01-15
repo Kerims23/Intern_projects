@@ -6,3 +6,4 @@ def convert_to_binary_data(filename):
         binary_data = file.read()
     return binary_data
 
+def insert_blob(emp_id, name, biodata_file):
