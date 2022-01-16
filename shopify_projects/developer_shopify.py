@@ -15,3 +15,6 @@ def insert_blob(emp_id, name, biodata_file):
         emp_picture = convert_to_binary_data(photo)
         file = convert_to_binary_data(biodata_file)
 
+        #making data into tuple format
+        
+
