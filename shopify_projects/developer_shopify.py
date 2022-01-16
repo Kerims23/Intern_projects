@@ -13,3 +13,5 @@ def insert_blob(emp_id, name, biodata_file):
         curso = connection.cursor()
         sql_inter_blob_query = """INSERT INTO python_employee (id, name, photo, biodata) Values (%s,%s,%s,%s)"""
         emp_picture = convert_to_binary_data(photo)
+        file = convert_to_binary_data(biodata_file)
+
