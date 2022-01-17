@@ -21,4 +21,6 @@ def insert_blob(emp_id, name, biodata_file):
         connection.commit()
         print("image and file inserted as a blob into the python_employee table", result)
         
+    except mysql.connector.error as error:
+        print("failed inserting data into table {}".format(error))
 
