@@ -17,6 +17,6 @@ def insert_blob(emp_id, name, biodata_file):
 
         #making data into tuple format
         insert_blob_tuple = (emp_id, name, emp_picture, file)
-        result = cursor.execute(sql_insert_blob_query, insert_blob_tuple)
+        result = cursor.execute(sql_inter_blob_query, insert_blob_tuple)
         
 
