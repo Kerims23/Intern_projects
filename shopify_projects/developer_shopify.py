@@ -24,3 +24,6 @@ def insert_blob(emp_id, name, biodata_file):
     except mysql.connector.error as error:
         print("failed inserting data into table {}".format(error))
 
+    finally:
+        
+
