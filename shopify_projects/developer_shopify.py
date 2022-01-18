@@ -26,4 +26,5 @@ def insert_blob(emp_id, name, biodata_file):
 
     finally:
         if connection.is_connected():
-
+            cursor.close()
+            
