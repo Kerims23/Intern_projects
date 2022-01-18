@@ -28,5 +28,6 @@ def insert_blob(emp_id, name, biodata_file):
         if connection.is_connected():
             cursor.close()
             connection.close()
-            print()
+            print("MYSQL is closed")
+
 
