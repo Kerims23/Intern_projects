@@ -31,3 +31,5 @@ def insert_blob(emp_id, name, biodata_file):
             print("MYSQL is closed")
 
 
+insert_blob(1, "", )
+insert_blob(2, "", )
