@@ -31,5 +31,5 @@ def insert_blob(emp_id, name, biodata_file):
             print("MYSQL is closed")
 
 
-insert_blob(1, "", )
-insert_blob(2, "", )
+insert_blob(1, "Logo", "C:\Users\Kerim Sever\Pictures\Screenshots\Screenshot (384).png")
+insert_blob(2, "PC", "C:\Users\Kerim Sever\Pictures\Screenshots\Screenshot (386).png")
