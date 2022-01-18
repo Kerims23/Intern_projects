@@ -25,5 +25,5 @@ def insert_blob(emp_id, name, biodata_file):
         print("failed inserting data into table {}".format(error))
 
     finally:
-        
+        if connection.is_connected():
 
