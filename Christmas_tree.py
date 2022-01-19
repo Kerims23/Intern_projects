@@ -9,3 +9,4 @@ def triangle_shape(n):
 
 #making pole shape 
 def pole_shape(n):
+    for i in range(n):
