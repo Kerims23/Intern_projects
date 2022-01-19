@@ -8,3 +8,4 @@ def triangle_shape(n):
         print()
 
 #making pole shape 
+def pole_shape(n):
