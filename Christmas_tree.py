@@ -11,3 +11,4 @@ def triangle_shape(n):
 def pole_shape(n):
     for i in range(n):
         for o in range(n-1):
+            print(' ', end=' ')
