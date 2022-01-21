@@ -16,3 +16,5 @@ def pole_shape(n):
 
 #call function
 row = int(input("Enter number of rows: "))
+
+triangle_shape(row)
