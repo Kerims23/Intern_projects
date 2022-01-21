@@ -1,4 +1,5 @@
 import random
 
-lower="abcdefghijklmnopqrstuvwxyz"
-upper="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+lower = "abcdefghijklmnopqrstuvwxyz"
+upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+numbers = "0123456789"
