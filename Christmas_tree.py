@@ -15,3 +15,4 @@ def pole_shape(n):
         print('* * *')
 
 #call function
+row = int(input("Enter number of rows: "))
