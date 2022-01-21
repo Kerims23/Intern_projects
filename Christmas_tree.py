@@ -19,3 +19,4 @@ row = int(input("Enter number of rows: "))
 
 triangle_shape(row)
 triangle_shape(row)
+pole_shape(row)
