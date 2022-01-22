@@ -7,3 +7,4 @@ numbers = "0123456789"
 symbols = "[]{}()*/,:;_-"
 
 all = lower + upper + numbers + symbols
+lenght = 16
