@@ -8,4 +8,4 @@ symbols = "[]{}()*/,:;_-"
 
 all = lower + upper + numbers + symbols
 lenght = 16
-password = "".join(random.sample())
+password = "".join(random.sample(all, lenght))
