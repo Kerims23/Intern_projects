@@ -4,4 +4,4 @@ count = 0
 
 for i in word:
     if i == letter:
-        
+        count +=1
