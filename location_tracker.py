@@ -1,3 +1,5 @@
+#some errors with this, need to come back too
+
 import geocoder
 import folium
 
