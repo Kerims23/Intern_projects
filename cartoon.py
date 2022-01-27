@@ -6,4 +6,4 @@ import numpy as np
 img = cv2.imread("img.png")
 
 #edges 
-gray = 
+gray = cv2.cvt Color (img, cv2.COLOR_BGR2GRAY)
