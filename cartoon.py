@@ -3,4 +3,7 @@ import cv2
 import numpy as np
 
 #read the image 
-img=cv2.imread("img.png")
+img = cv2.imread("img.png")
+
+#edges 
+gray = 
