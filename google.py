@@ -3,3 +3,4 @@ def jump(self, A):
     count = 0 
     pos = 0 
     for i in range(1,l):
+        A[i] = max(i+A[i],A[i-l])
