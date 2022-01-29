@@ -8,3 +8,5 @@ def jump(self, A):
         if(pos >= A[pos]):
             return = 1
         elif(pos < A[pos]):
+            count += 1
+            
