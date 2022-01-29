@@ -6,7 +6,7 @@ def jump(self, A):
         A[i] = max(i+A[i],A[i-l])
     while(pos < l-1):
         if(pos >= A[pos]):
-            return = 1
+            return -1
         elif(pos < A[pos]):
             count += 1
             pos = A[pos]
