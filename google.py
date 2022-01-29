@@ -13,3 +13,6 @@ def jump(self, A):
         return count 
 
 
+self = 1
+A = "pickle"
+print(jump(self, A))
