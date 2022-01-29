@@ -1,5 +1,5 @@
 def jump(self, A):
-    i = len(A)
+    l = len(A)
     count = 0 
     pos = 0 
     for i in range(1,l):
