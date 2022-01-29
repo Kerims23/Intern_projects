@@ -1,6 +1,8 @@
 from posixpath import split
 
 
+#tried something new here but ended up being a fail, will come back to in future
+
 def jump(self, A):
     l = len(A)
     count = 0 
