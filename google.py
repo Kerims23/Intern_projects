@@ -1,9 +1,12 @@
+from posixpath import split
+
+
 def jump(self, A):
     l = len(A)
     count = 0 
     pos = 0 
     for i in range(1,l):
-        A[i] = max(i+A[i], A[i-1])
+        letter = split(A[i])
     while(pos < l-1):
         if(pos >= A[pos]):
             return -1
@@ -13,6 +16,6 @@ def jump(self, A):
         return count 
 
 
-self = 1
-A = "pickle"
+self = 5
+A = "5 5 5"
 print(jump(self, A))
