@@ -12,3 +12,6 @@ class Account:
 
     def create_account(self):
         self.acc_num = int(input("Enter account number here: "))
+        self.name = int(input("Enter account number here: "))
+        self.deposit = int(input("Enter account number here: "))
+        self.type = int(input("Enter account number here: "))
