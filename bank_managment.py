@@ -5,4 +5,5 @@ import pathlib
 
 #defining the first class
 class Account:
-    acc_no = 0
+    acc_num = 0
+    name = ""
