@@ -9,3 +9,6 @@ class Account:
     name = ""
     deposit = 0 
     type = ""
+
+    def create_account(self):
+        
