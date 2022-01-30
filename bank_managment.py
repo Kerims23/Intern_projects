@@ -7,3 +7,5 @@ import pathlib
 class Account:
     acc_num = 0
     name = ""
+    deposit = 0 
+    type = ""
