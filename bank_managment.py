@@ -11,4 +11,4 @@ class Account:
     type = ""
 
     def create_account(self):
-        
+        self.acc_num = int(input("Enter account number here: "))
