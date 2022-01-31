@@ -24,4 +24,4 @@ class Account:
         self.deposit -= amount 
 
     def report(self):
-        
+        print(f"{self.acc_num}, {self.name}, {self.type}, {self.deposit}")
