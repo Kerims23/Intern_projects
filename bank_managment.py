@@ -25,6 +25,8 @@ class Account:
 
     def modify_account(self):
         print(f"Account Number: {self.acc_num}")
+        self.name = input("Modify account holder name: ")
+        
 
     def show_account(self):
         print(f"Account Number: {self.acc_num}")
