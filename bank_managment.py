@@ -23,5 +23,8 @@ class Account:
     def withdraw_amount(self):
         self.deposit -= amount 
 
+    def modify_account(self):
+        
+
     def report(self):
         print(f"{self.acc_num}, {self.name}, {self.type}, {self.deposit}")
