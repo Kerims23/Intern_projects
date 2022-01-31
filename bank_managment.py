@@ -17,3 +17,7 @@ class Account:
         self.type = int(input("Enter account type here: "))
 
     def deposit_amount(self, amount):
+        self.deposit += amount
+
+    def withdraw_amount():
+        
