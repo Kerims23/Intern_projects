@@ -26,5 +26,8 @@ class Account:
     def modify_account(self):
         print(f"Account Number: {self.acc_num}")
 
+    def show_account(self):
+        print(f"Account Number: {self.acc_num}")
+
     def report(self):
         print(f"{self.acc_num}, {self.name}, {self.type}, {self.deposit}")
