@@ -15,3 +15,5 @@ class Account:
         self.name = int(input("Enter account name here: "))
         self.deposit = int(input("Enter amount deposited here: "))
         self.type = int(input("Enter account type here: "))
+
+    def deposit_amount(self, amount):
