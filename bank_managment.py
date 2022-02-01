@@ -37,3 +37,8 @@ class Account:
 
     def report(self):
         print(f"{self.acc_num}, {self.name}, {self.type}, {self.deposit}")
+
+
+#return statments 
+def get_acc_num(self:):
+    
