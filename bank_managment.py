@@ -40,5 +40,5 @@ class Account:
 
 
 #return statments 
-def get_acc_num(self:):
-    
+def get_acc_num(self):
+    return self.acc_num
