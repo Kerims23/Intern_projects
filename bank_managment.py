@@ -44,4 +44,7 @@ class Account:
         return self.acc_num
 
     def get_acc_name(self):
+        return self.name
+    
+    def get_acc_type(self):
         
