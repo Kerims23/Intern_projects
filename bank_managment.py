@@ -47,4 +47,6 @@ class Account:
         return self.name
     
     def get_acc_type(self):
-        
+        return self.type
+
+    def get_acc_deposit(self):
