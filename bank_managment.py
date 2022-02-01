@@ -25,13 +25,13 @@ class Account:
 
     def modify_account(self):
         print(f"Account Number: {self.acc_num}")
-        self.name = input("Modify account holder name: ")
+        self.name = input("Modify account name: ")
         self.type = input("Modify type of Account: ")
         self.deposit = int(input("Modify Balance: "))
 
     def show_account(self):
         print(f"Account Number: {self.acc_num}")
-        print(f"Account Holder Name: {self.name}")
+        print(f"Account Name: {self.name}")
         print(f"Type of Account {self.type}")
         print(f"Balance: {self.deposit}")
 
@@ -40,5 +40,8 @@ class Account:
 
 
 #return statments 
-def get_acc_num(self):
-    return self.acc_num
+    def get_acc_num(self):
+        return self.acc_num
+
+    def get_acc_name(self):
+        
