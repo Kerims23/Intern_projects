@@ -32,7 +32,7 @@ class Account:
         print(f"Account Number: {self.acc_num}")
         print(f"Account Holder Name: {self.name}")
         print(f"Type of Account {self.type}")
-        print(f"")
+        print(f"Balance: {self.deposit}")
 
     def report(self):
         print(f"{self.acc_num}, {self.name}, {self.type}, {self.deposit}")
