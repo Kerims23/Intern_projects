@@ -50,3 +50,4 @@ class Account:
         return self.type
 
     def get_acc_deposit(self):
+        return self.deposit
