@@ -51,3 +51,13 @@ class Account:
 
     def get_acc_deposit(self):
         return self.deposit
+
+
+#current output 
+
+    def intro():
+        print("*****************************")
+        print("*** Bank Management System ***")
+        print("*****************************")
+
+        input()
