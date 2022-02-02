@@ -53,7 +53,7 @@ class Account:
         return self.deposit
 
 
-#intro screen 
+#intro screen, this is a filler for future flask maybe
 
     def intro():
         print("*****************************")
