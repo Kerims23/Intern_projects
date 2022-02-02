@@ -53,7 +53,7 @@ class Account:
         return self.deposit
 
 
-#current output 
+#intro screen 
 
     def intro():
         print("*****************************")
