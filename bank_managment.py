@@ -61,3 +61,7 @@ class Account:
         print("*****************************")
 
         input()
+        
+# write account
+
+    def write_account
