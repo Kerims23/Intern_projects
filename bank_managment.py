@@ -79,6 +79,7 @@ class Account:
         #get the file
         file = pathlib.Path("accounts.data")
         if file.exists():
+            #take the file, open it and load info
             infile = open("accounts.data", "rb")
             oldlist = pickle.load(infile)
             oldlist.append(account)
