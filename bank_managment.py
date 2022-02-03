@@ -70,6 +70,7 @@ class Account:
         #pulling the class account from before and making it a variable
         acc = Account()
         acc.create_account()
+        #the def write_acc_file will work with this
         write_acc_file(acc)
         
         
