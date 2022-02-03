@@ -64,4 +64,7 @@ class Account:
         
 # write account
 
-    def write_account
+    def write_acc():
+        
+        acc = Account()
+        acc.create_account()
