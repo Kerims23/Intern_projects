@@ -75,4 +75,4 @@ class Account:
         
         
         
-    def write_acc_file():
+    def write_acc_file(account):
