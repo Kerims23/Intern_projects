@@ -80,3 +80,4 @@ class Account:
         if file.exists():
             infile = open("accounts.data", "rb")
             oldlist = pickle.load(infile)
+            oldlist.append(account)
