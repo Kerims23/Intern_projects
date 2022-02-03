@@ -78,4 +78,5 @@ class Account:
     def write_acc_file(account):
         file = pathlib.Path("accounts.data")
         if file.exists():
+            infile = open("accounts.data", "rb")
             
