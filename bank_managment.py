@@ -65,6 +65,6 @@ class Account:
 # write account
 
     def write_acc():
-        
+        #pulling the class account from before and making it a variable
         acc = Account()
         acc.create_account()
