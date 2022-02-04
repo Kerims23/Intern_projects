@@ -88,4 +88,4 @@ class Account:
 
     #this is to display all accounts and info
     def display_all():
-        file = pathlib.Path("acounts.data")
+        file = pathlib.Path("accounts.data")
