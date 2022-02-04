@@ -90,4 +90,4 @@ class Account:
     def display_all():
         file = pathlib.Path("accounts.data")
         if file.exists():
-            
+            infile = open("accounts.data", "rb")
