@@ -89,3 +89,5 @@ class Account:
     #this is to display all accounts and info
     def display_all():
         file = pathlib.Path("accounts.data")
+        if file.exists():
+            
