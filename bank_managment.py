@@ -89,6 +89,8 @@ class Account:
     #this is to display all accounts and info
     def display_all():
         file = pathlib.Path("accounts.data")
+        #this is to read the file 
         if file.exists():
             infile = open("accounts.data", "rb")
             mylist = pickle.load(infile)
+            
