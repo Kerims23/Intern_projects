@@ -86,6 +86,6 @@ class Account:
             infile.close()
             os.remove("accounts.data")
 
-    
+    #this is to display all accounts and info
     def display_all():
         
