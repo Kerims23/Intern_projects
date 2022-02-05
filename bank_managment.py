@@ -95,3 +95,4 @@ class Account:
            #this is the imported command
             mylist = pickle.load(infile)
             for item in mylist:
+                print(item.acc_num, ' ', item.name, ' '. item.type, ' ',item.deposit)
