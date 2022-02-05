@@ -98,6 +98,7 @@ class Account:
             for item in mylist:
                 #prints out the items and account info etc
                 print(item.acc_num, ' ', item.name, ' '. item.type, ' ',item.deposit)
+            #must close file once im finished with file
             infile.close()
         else:
             print("No records to display")
