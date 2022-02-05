@@ -94,8 +94,11 @@ class Account:
             infile = open("accounts.data", "rb")
            #this is the imported command
             mylist = pickle.load(infile)
+            #making a for list to items in mylist
             for item in mylist:
+                
                 print(item.acc_num, ' ', item.name, ' '. item.type, ' ',item.deposit)
             infile.close()
         else:
             print("No records to display")
+
