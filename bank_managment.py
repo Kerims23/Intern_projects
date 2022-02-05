@@ -94,4 +94,4 @@ class Account:
             infile = open("accounts.data", "rb")
            #this is the imported command
             mylist = pickle.load(infile)
-            
+            for item in mylist
