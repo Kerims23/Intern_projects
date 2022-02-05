@@ -96,3 +96,5 @@ class Account:
             mylist = pickle.load(infile)
             for item in mylist:
                 print(item.acc_num, ' ', item.name, ' '. item.type, ' ',item.deposit)
+            infile.close()
+    
