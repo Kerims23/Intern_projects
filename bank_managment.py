@@ -96,7 +96,7 @@ class Account:
             mylist = pickle.load(infile)
             #making a for list to items in mylist
             for item in mylist:
-                
+                #prints out the items and account info etc
                 print(item.acc_num, ' ', item.name, ' '. item.type, ' ',item.deposit)
             infile.close()
         else:
