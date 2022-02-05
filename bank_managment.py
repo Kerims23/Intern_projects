@@ -102,5 +102,6 @@ class Account:
             infile.close()
         #if it does not fall into my if then it will go to my else statement 
         else:
+            #this print statement helps me know if the records are not being displayed or if something is wrong
             print("No records to display")
 
