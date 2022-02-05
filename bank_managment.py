@@ -100,6 +100,7 @@ class Account:
                 print(item.acc_num, ' ', item.name, ' '. item.type, ' ',item.deposit)
             #must close file once im finished with file
             infile.close()
+        #if it does not fall into my if then it will go to my else statement 
         else:
             print("No records to display")
 
