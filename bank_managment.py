@@ -110,5 +110,6 @@ class Account:
             file = path.lib.Path("accounts.data")
             if file.exists():
                 infile = open("accounts.data", 'rb')
-                my_list
+                my_list = pickle.load(infile)
+                
 
