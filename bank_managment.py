@@ -105,3 +105,6 @@ class Account:
             #this print statement helps me know if the records are not being displayed or if something is wrong
             print("No records to display")
 
+        
+        def display_sp(num):
+            
