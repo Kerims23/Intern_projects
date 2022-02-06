@@ -109,6 +109,7 @@ class Account:
         def display_sp(num):
             #to find and open file
             file = path.lib.Path("accounts.data")
+            #if there is a file follow through with if statement
             if file.exists():
                 infile = open("accounts.data", 'rb')
                 my_list = pickle.load(infile)
