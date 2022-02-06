@@ -93,9 +93,9 @@ class Account:
         if file.exists():
             infile = open("accounts.data", "rb")
            #this is the imported command
-            mylist = pickle.load(infile)
-            #making a for list to items in mylist
-            for item in mylist:
+            my_list = pickle.load(infile)
+            #making a for list to items in my_list
+            for item in my_list:
                 #prints out the items and account info etc
                 print(item.acc_num, ' ', item.name, ' '. item.type, ' ',item.deposit)
             #must close file once im finished with file
@@ -110,5 +110,5 @@ class Account:
             file = path.lib.Path("accounts.data")
             if file.exists():
                 infile = open("accounts.data", 'rb')
-                
+                my_list
 
