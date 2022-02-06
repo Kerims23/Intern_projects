@@ -105,8 +105,9 @@ class Account:
             #this print statement helps me know if the records are not being displayed or if something is wrong
             print("No records to display")
 
-        
+        #this is to display sp
         def display_sp(num):
+            
             file = path.lib.Path("accounts.data")
             if file.exists():
                 infile = open("accounts.data", 'rb')
