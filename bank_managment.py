@@ -109,5 +109,6 @@ class Account:
         def display_sp(num):
             file = path.lib.Path("accounts.data")
             if file.exists():
+                infile = open("accounts.data", 'rb')
                 
 
