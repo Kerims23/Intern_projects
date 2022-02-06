@@ -107,7 +107,7 @@ class Account:
 
         #this is to display sp
         def display_sp(num):
-            
+            #to find and open file
             file = path.lib.Path("accounts.data")
             if file.exists():
                 infile = open("accounts.data", 'rb')
