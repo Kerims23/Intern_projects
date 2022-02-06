@@ -74,7 +74,7 @@ class Account:
         write_acc_file(acc)
         
         
-        
+   #this is to create the file for acct     
     def write_acc_file(account):
         #get the file
         file = pathlib.Path("accounts.data")
