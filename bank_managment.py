@@ -115,8 +115,11 @@ class Account:
                 my_list = pickle.load(infile)
                 infile.close()
                 found_file = False
+            
+            #
             elif not found:
-                
+                print("No record with this number")
+
             #the else statment filters if there are no files with the account
             else: 
                 print("No records to search")
