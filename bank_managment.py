@@ -117,6 +117,7 @@ class Account:
                 found_file = False
                 for item in my_list:
                     if item.acc_num == num
+                    print(f"your account balance is = {item.deposit}")
 
             
             #this is to filter if an account is not found
