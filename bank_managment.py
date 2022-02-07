@@ -116,5 +116,5 @@ class Account:
                 infile.close()
                 found_file = False
             else: 
-                print("no records to search")
+                print("No records to search")
 
