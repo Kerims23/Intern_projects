@@ -115,4 +115,6 @@ class Account:
                 my_list = pickle.load(infile)
                 infile.close()
                 found_file = False
+            else: 
+                print("no records to search")
 
