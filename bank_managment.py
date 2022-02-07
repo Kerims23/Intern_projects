@@ -116,7 +116,8 @@ class Account:
                 infile.close()
                 found_file = False
                 for item in my_list:
-                    
+                    if item.acc_num == num
+
             
             #this is to filter if an account is not found
             elif not found:
