@@ -116,7 +116,7 @@ class Account:
                 infile.close()
                 found_file = False
             
-            #
+            #this is to filter if an account is not found
             elif not found:
                 print("No record with this number")
 
