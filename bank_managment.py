@@ -115,6 +115,8 @@ class Account:
                 my_list = pickle.load(infile)
                 infile.close()
                 found_file = False
+                for item in my_list:
+                    
             
             #this is to filter if an account is not found
             elif not found:
