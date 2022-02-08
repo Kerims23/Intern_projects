@@ -119,9 +119,6 @@ class Account:
                     if item.acc_num == num:
                         found = True
                         print(f"your account balance is = {item.deposit}")
-                    
-
-            
             #this is to filter if an account is not found
             elif not found:
                 print("No record with this number")
