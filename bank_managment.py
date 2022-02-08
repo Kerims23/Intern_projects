@@ -3,12 +3,19 @@ import pickle
 import os
 import pathlib
 
+
+
+#import colorama 
+
 #defining the first class
 class Account:
     acc_num = 0
     name = ""
     deposit = 0 
-    type = ""
+    type = ""  # rename this variable because type is reserved
+
+    # look into creating a constructor __init__
+    # this is a function that runs when the object is created/ instantiated
 
     def create_account(self):
         self.acc_num = int(input("Enter account number here: "))
@@ -29,6 +36,7 @@ class Account:
         self.type = input("Modify type of Account: ")
         self.deposit = int(input("Modify Balance: "))
 
+    # you can override __str__ function
     def show_account(self):
         print(f"Account Number: {self.acc_num}")
         print(f"Account Name: {self.name}")
@@ -55,6 +63,8 @@ class Account:
 
 #intro screen, this is a filler for future flask maybe
 
+    # can make this a static method
+    # static methods dont need an instance of a class to be used
     def intro():
         print("*****************************")
         print("*** Bank Management System ***")
@@ -62,8 +72,6 @@ class Account:
 
         input()
         
-
-    
 
 # write account
     def write_acc():
