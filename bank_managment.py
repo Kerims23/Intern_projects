@@ -137,6 +137,7 @@ class Account:
             my_list = pickle.load(infile)
             infile.close()
             os.remove("accounts.data")
+            #for loop coming for item in mylist
             
 
 
