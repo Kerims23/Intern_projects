@@ -133,6 +133,8 @@ class Account:
         if file.exists():
             infile = open("accounts.data", 'rb')
             my_list = pickle.load(infile)
+            infile.close()
+
 
 
         
