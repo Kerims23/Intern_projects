@@ -130,6 +130,7 @@ class Account:
 
     #we are creating the deposit and withdraw function
     def depost_and_withdraw(num1, num2):
+        #same procedure with opening file and file and loading it
         file = pathlib.Path("accounts.data")
         if file.exists():
             infile = open("accounts.data", 'rb')
