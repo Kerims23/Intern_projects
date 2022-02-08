@@ -12,7 +12,7 @@ class Account:
     acc_num = 0
     name = ""
     deposit = 0 
-    type = ""  # rename this variable because type is reserved
+    type_of_acct = ""  # rename this variable because type is reserved
 
     # look into creating a constructor __init__
     # this is a function that runs when the object is created/ instantiated
@@ -21,7 +21,7 @@ class Account:
         self.acc_num = int(input("Enter account number here: "))
         self.name = int(input("Enter account name here: "))
         self.deposit = int(input("Enter amount deposited here: "))
-        self.type = int(input("Enter account type here: "))
+        self.type_of_acct = int(input("Enter account type here: "))
         print("Account Created")
 
     def deposit_amount(self, amount):
@@ -33,18 +33,18 @@ class Account:
     def modify_account(self):
         print(f"Account Number: {self.acc_num}")
         self.name = input("Modify account name: ")
-        self.type = input("Modify type of Account: ")
+        self.type_of_acct = input("Modify type of Account: ")
         self.deposit = int(input("Modify Balance: "))
 
     # you can override __str__ function
     def show_account(self):
         print(f"Account Number: {self.acc_num}")
         print(f"Account Name: {self.name}")
-        print(f"Type of Account {self.type}")
+        print(f"Type of Account: {self.type_of_acct}")
         print(f"Balance: {self.deposit}")
 
     def report(self):
-        print(f"{self.acc_num}, {self.name}, {self.type}, {self.deposit}")
+        print(f"{self.acc_num}, {self.name}, {self.type_of_acct}, {self.deposit}")
 
 
 #return statments 
@@ -55,7 +55,7 @@ class Account:
         return self.name
     
     def get_acc_type(self):
-        return self.type
+        return self.type_of_acct
 
     def get_acc_deposit(self):
         return self.deposit
@@ -105,7 +105,7 @@ class Account:
             #making a for list to items in my_list
             for item in my_list:
                 #prints out the items and account info etc
-                print(item.acc_num, ' ', item.name, ' '. item.type, ' ',item.deposit)
+                print(item.acc_num, ' ', item.name, ' '. item.type_of_acct, ' ',item.deposit)
             #must close file once im finished with file
             infile.close()
         #if it does not fall into my if then it will go to my else statement 
