@@ -105,27 +105,29 @@ class Account:
             #this print statement helps me know if the records are not being displayed or if something is wrong
             print("No records to display")
 
-        #this is to display sp
-        def display_sp(num):
-            #to find and open file
-            file = path.lib.Path("accounts.data")
-            #if there is a file follow through with if statement
-            if file.exists():
-                infile = open("accounts.data", 'rb')
-                my_list = pickle.load(infile)
-                infile.close()
-                found_file = False
-                for item in my_list:
-                    if item.acc_num == num:
-                        found = True
-                        print(f"your account balance is = {item.deposit}")
-            #this is to filter if an account is not found
-            elif not found:
-                print("No record with this number")
+    #this is to display sp
+    def display_sp(num):
+        #to find and open file
+        file = path.lib.Path("accounts.data")
+        #if there is a file follow through with if statement
+        if file.exists():
+            infile = open("accounts.data", 'rb')
+            my_list = pickle.load(infile)
+            infile.close()
+            found_file = False
+            for item in my_list:
+                if item.acc_num == num:
+                    found = True
+                    print(f"your account balance is = {item.deposit}")
+        #this is to filter if an account is not found
+        elif not found:
+            print("No record with this number")
 
-            #the else statment filters if there are no files with the account
-            else: 
-                print("No records to search")
+        #the else statment filters if there are no files with the account
+        else: 
+            print("No records to search")
       
 
+    def depost_and_withdraw(num1, num2):
 
+        
