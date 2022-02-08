@@ -128,6 +128,7 @@ class Account:
             print("No records to search")
       
 
+    #we are creating the deposit and withdraw function
     def depost_and_withdraw(num1, num2):
         file = pathlib.Path("accounts.data")
         if file.exists():
@@ -135,7 +136,7 @@ class Account:
             my_list = pickle.load(infile)
             infile.close()
             os.remove("accounts.data")
-
+            
 
 
         
