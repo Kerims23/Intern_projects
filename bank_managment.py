@@ -134,6 +134,7 @@ class Account:
             infile = open("accounts.data", 'rb')
             my_list = pickle.load(infile)
             infile.close()
+            os.remove("accounts.data")
 
 
 
