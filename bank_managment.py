@@ -148,9 +148,11 @@ class Account:
             #for loop coming for item in mylist
             for item in my_list:
                 if item.acc_num == num1:
+                    #to check user
                     if num2 == 1:
                         amount = int(input("Enter the amount to deposit: "))
                         item.deposit += amount
+                        
 
             
 
