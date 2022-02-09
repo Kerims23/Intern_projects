@@ -147,7 +147,9 @@ class Account:
             os.remove("accounts.data")
             #for loop coming for item in mylist
             for item in my_list:
+                if item.acc_num == num1 
                 
+
             
 
 
