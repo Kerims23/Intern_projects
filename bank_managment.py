@@ -150,6 +150,7 @@ class Account:
                 if item.acc_num == num1:
                     if num2 == 1:
                         amount = int(input("Enter the amount to deposit: "))
+                        item.deposit += amount
 
             
 
