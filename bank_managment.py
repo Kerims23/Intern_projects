@@ -138,6 +138,8 @@ class Account:
             infile.close()
             os.remove("accounts.data")
             #for loop coming for item in mylist
+            for item in my_list:
+                
             
 
 
