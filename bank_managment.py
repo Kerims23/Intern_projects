@@ -155,7 +155,8 @@ class Account:
                         print("Your account is updated")
                     #to check if user wants to withdraw
                     elif num2 == 2:
-                        amo
+                        amount = int(input("Enter the amount to withdraw: "))
+                        #parameter for withdraw 
 
             
 
