@@ -156,7 +156,11 @@ class Account:
                     #to check if user wants to withdraw
                     elif num2 == 2:
                         amount = int(input("Enter the amount to withdraw: "))
-                        #parameter for withdraw 
+                        #parameter for withdraw
+                        if amount <= item.deposit:
+                           
+                        
+
 
             
 
