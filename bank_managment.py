@@ -158,7 +158,7 @@ class Account:
                         amount = int(input("Enter the amount to withdraw: "))
                         #parameter for withdraw
                         if amount <= item.deposit:
-                           
+                            item.deposit -=amount
                         
 
 
