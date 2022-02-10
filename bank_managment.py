@@ -165,7 +165,9 @@ class Account:
                     print("no records to search")
                     outfile = open('new_accounts.data','wb')
                     pickle.dump(my_list,outfile)
+                    outfile.close()
                     
+
                         
 
 
