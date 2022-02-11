@@ -169,6 +169,7 @@ class Account:
                     os.rename('new_accounts.data', 'accounts.data')
 
     def delete_account(num):
+        file = pathlib.Path("accounts.data")
         
 
                         
