@@ -173,6 +173,7 @@ class Account:
         if file.exists():
             infile = open('accounts.data', 'rb')
             oldlist = pickle.load(infile)
+            infile.close()
 
 
                         
