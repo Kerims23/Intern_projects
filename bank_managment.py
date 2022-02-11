@@ -168,6 +168,8 @@ class Account:
                     outfile.close()
                     os.rename('new_accounts.data', 'accounts.data')
 
+    def delete_account(num):
+        
 
                         
 
