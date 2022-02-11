@@ -168,6 +168,7 @@ class Account:
                     outfile.close()
                     os.rename('new_accounts.data', 'accounts.data')
 
+#creating this to delete entire account
     def delete_account(num):
         file = pathlib.Path("accounts.data")
         if file.exists():
@@ -175,6 +176,7 @@ class Account:
             oldlist = pickle.load(infile)
             infile.close()
             newlist = []
+            
 
 
                         
