@@ -171,6 +171,7 @@ class Account:
 #creating this to delete entire account
     def delete_account(num):
         file = pathlib.Path("accounts.data")
+        #reads file if it exists
         if file.exists():
             infile = open('accounts.data', 'rb')
             oldlist = pickle.load(infile)
