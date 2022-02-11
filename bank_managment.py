@@ -170,7 +170,8 @@ class Account:
 
     def delete_account(num):
         file = pathlib.Path("accounts.data")
-        
+        if file.exists():
+            
 
                         
 
