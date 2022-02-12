@@ -186,6 +186,9 @@ class Account:
 
             outfile = open('newaccounts.data', 'wb')
             pickle.dump(oldlist, outfile)
+            outfile.close()
+            os.rename('newaccounts.data')
+
 
             
 
