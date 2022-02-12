@@ -185,7 +185,7 @@ class Account:
                     item.deposit = input("Enter the amount: ")
 
             outfile = open('newaccounts.data', 'wb')
-            
+            pickle.dump(oldlist, outfile)
 
             
 
