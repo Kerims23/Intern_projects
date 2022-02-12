@@ -181,7 +181,8 @@ class Account:
             for item in oldlist:
                 if item.acc_num == num:
                     item.name = input("Enter the account name")
-                    
+                    item.type = input("Enter the account type")
+
 
             
 
