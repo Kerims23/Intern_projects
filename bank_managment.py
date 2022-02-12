@@ -178,6 +178,8 @@ class Account:
             infile.close()
             #new list to add into 
             newlist = []
+            for item in oldlist:
+                
             
 
 
