@@ -180,6 +180,7 @@ class Account:
             newlist = []
             for item in oldlist:
                 if item.acc_num == num:
+                    item.name = input("Enter the account name")
                     
 
             
