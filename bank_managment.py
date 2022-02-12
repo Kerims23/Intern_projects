@@ -179,7 +179,9 @@ class Account:
             #new list to add into 
             newlist = []
             for item in oldlist:
-                
+                if item.acc_num == num:
+                    
+
             
 
 
