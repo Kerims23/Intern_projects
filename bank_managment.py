@@ -183,7 +183,7 @@ class Account:
                     item.name = input("Enter the account name: ")
                     item.type = input("Enter the account type: ")
                     item.deposit = input("Enter the amount: ")
-
+            #close file
             outfile = open('newaccounts.data', 'wb')
             pickle.dump(oldlist, outfile)
             outfile.close()
