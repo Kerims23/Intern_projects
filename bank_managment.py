@@ -184,6 +184,9 @@ class Account:
                     item.type = input("Enter the account type: ")
                     item.deposit = input("Enter the amount: ")
 
+            outfile = open('newaccounts.data', 'wb')
+            
+
             
 
 
