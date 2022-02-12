@@ -180,9 +180,9 @@ class Account:
             newlist = []
             for item in oldlist:
                 if item.acc_num == num:
-                    item.name = input("Enter the account name")
-                    item.type = input("Enter the account type")
-
+                    item.name = input("Enter the account name: ")
+                    item.type = input("Enter the account type: ")
+                    item.deposit = input("Enter the amount: ")
 
             
 
