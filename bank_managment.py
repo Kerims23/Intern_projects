@@ -196,7 +196,7 @@ class Account:
             infile = open('accounts.data', 'rb')
             oldlist = pickle.load(infile)
             oldlist.append(account)
-
+            infile.close()
 
 
 
