@@ -200,6 +200,7 @@ class Account:
             os.remove('accounts.data')
         else:
             oldlist = [account]
+        outfile = open('newaccounts.data', 'wb')
         
 
 
