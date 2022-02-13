@@ -197,7 +197,8 @@ class Account:
             oldlist = pickle.load(infile)
             oldlist.append(account)
             infile.close()
-
+            os.remove('accounts.data')
+        
 
 
             
