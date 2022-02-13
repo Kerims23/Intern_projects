@@ -189,6 +189,11 @@ class Account:
             outfile.close()
             os.rename('newaccounts.data', 'accounts.data')
 
+    
+    def write_accounts_file(account):
+        file = pathlib.Path("accounts.data")
+        
+
 
             
 
