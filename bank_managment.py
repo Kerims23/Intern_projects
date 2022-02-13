@@ -199,7 +199,8 @@ class Account:
             infile.close()
             os.remove('accounts.data')
         else:
-            
+            oldlist = [account]
+        
 
 
             
