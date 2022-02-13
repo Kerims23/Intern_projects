@@ -201,7 +201,7 @@ class Account:
         else:
             oldlist = [account]
         outfile = open('newaccounts.data', 'wb')
-        
+        pickle.dump(oldlist, outfile)
 
 
             
