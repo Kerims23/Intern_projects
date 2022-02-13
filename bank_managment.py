@@ -198,7 +198,8 @@ class Account:
             oldlist.append(account)
             infile.close()
             os.remove('accounts.data')
-        
+        else:
+            
 
 
             
