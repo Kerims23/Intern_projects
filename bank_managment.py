@@ -192,7 +192,8 @@ class Account:
     
     def write_accounts_file(account):
         file = pathlib.Path("accounts.data")
-        
+        if file.exists():
+            
 
 
             
