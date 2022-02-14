@@ -241,6 +241,13 @@ while i ! = 8:
     elif i == '6':
         num = int(input("\tEnter the Account Number: "))
         delete_acc(num)
+    elif i == '7':
+        num = int(input("\tEnter the Account Number: "))
+        modify_account(num)
+
+
+    elif i == '8':
+
 
                         
 
