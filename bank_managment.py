@@ -137,7 +137,7 @@ class Account:
       
 
     #we are creating the deposit and withdraw function
-    def depost_and_withdraw(num1, num2):
+    def deposit_and_withdraw(num1, num2):
         #same procedure with opening file and file and loading it
         file = pathlib.Path("accounts.data")
         if file.exists():
@@ -229,6 +229,11 @@ while i ! = 8:
         write_account()
     elif i == '2':
         num = int(input("\tEnter the Account Number: "))
+        deposit_and_withdraw(num, 1)
+    elif i == '3':
+        num = int(input("\tEnter the Account Number: "))
+        deposit_and_withdraw(num, 2)
+    elif i == '4':
         
                         
 
