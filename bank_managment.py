@@ -234,7 +234,10 @@ while i ! = 8:
         num = int(input("\tEnter the Account Number: "))
         deposit_and_withdraw(num, 2)
     elif i == '4':
-        
+        num = int(input("\tEnter the Account Number: "))
+        display_sp(num)
+    
+
                         
 
 
