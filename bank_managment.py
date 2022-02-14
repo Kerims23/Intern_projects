@@ -248,8 +248,8 @@ while i ! = 8:
         print("\t Thanks for using our Bank Management System  :)")
     else:
         print("invalid choice")
-
-                        
+    
+    i = input("Enter your choice: ")
 
 
             
