@@ -225,7 +225,11 @@ while i ! = 8:
     i = input()
 
 
-
+    if i == '1':
+        write_account()
+    elif i == '2':
+        num = int(input("\tEnter the Account Number: "))
+        
                         
 
 
