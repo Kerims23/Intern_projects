@@ -247,7 +247,8 @@ while i ! = 8:
 
 
     elif i == '8':
-
+        print("\t Thanks for using our Bank Management System  :)")
+    
 
                         
 
