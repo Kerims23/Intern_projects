@@ -236,7 +236,11 @@ while i ! = 8:
     elif i == '4':
         num = int(input("\tEnter the Account Number: "))
         display_sp(num)
-    
+    elif i == '5':
+        display_all()
+    elif i == '6':
+        num = int(input("\tEnter the Account Number: "))
+        delete_acc(num)
 
                         
 
