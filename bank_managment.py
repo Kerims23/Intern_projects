@@ -211,7 +211,7 @@ i = ''
 num = 0
 intro()
 
-while i ! = 8:
+while i != 8:
     print("\t MAIN MENU")
     print("\t1. New Account")
     print("\t2. Deposit Amount")
