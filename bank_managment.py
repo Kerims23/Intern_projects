@@ -215,7 +215,14 @@ while i ! = 8:
     print("\t MAIN MENU")
     print("\t1. New Account")
     print("\t2. Deposit Amount")
-    
+    print("\t3. Withdraw Amount")
+    print("\t4. Balance Enquiry")
+    print("\t5. All Account Holder List")
+    print("\t6. Close Account")
+    print("\t7. Modify An Account")
+    print("\t8. EXIT")
+    print("\tSelect Your Option (1-8) ")
+    i = input()
 
 
 
