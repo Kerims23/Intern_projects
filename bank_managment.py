@@ -206,7 +206,13 @@ class Account:
         os.rename('newaccounts.data', 'accounts.data')
 
 
-            
+#Display
+i = ''
+num = 0
+intro()
+
+while i ! = 8:
+    print("\tMAIN MENU")
 
 
                         
