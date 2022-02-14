@@ -30,7 +30,7 @@ class Account:
     def withdraw_amount(self):
         self.deposit -= amount 
 
-    def modify_account(self):
+    def modify_acc(self):
         print(f"Account Number: {self.acc_num}")
         self.name = input("Modify account name: ")
         self.type_of_acct = input("Modify type of Account: ")
@@ -169,7 +169,7 @@ class Account:
                     os.rename('new_accounts.data', 'accounts.data')
 
 #creating this to delete entire account
-    def delete_account(num):
+    def delete_acc(num):
         file = pathlib.Path("accounts.data")
         #reads file if it exists
         if file.exists():
@@ -209,7 +209,7 @@ class Account:
 #Display
 i = ''
 num = 0
-intro()
+#intro()
 
 while i != 8:
     print("\t MAIN MENU")
@@ -226,7 +226,7 @@ while i != 8:
 
 
     if i == '1':
-        write_account()
+        write_acc()
     elif i == '2':
         num = int(input("\tEnter the Account Number: "))
         deposit_and_withdraw(num, 1)
@@ -243,7 +243,7 @@ while i != 8:
         delete_acc(num)
     elif i == '7':
         num = int(input("\tEnter the Account Number: "))
-        modify_account(num)
+        modify_acc(num)
     elif i == '8':
         print("\t Thanks for using our Bank Management System  :)")
     else:
