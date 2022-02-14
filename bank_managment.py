@@ -244,11 +244,10 @@ while i ! = 8:
     elif i == '7':
         num = int(input("\tEnter the Account Number: "))
         modify_account(num)
-
-
     elif i == '8':
         print("\t Thanks for using our Bank Management System  :)")
-    
+    else:
+        print("invalid choice")
 
                         
 
