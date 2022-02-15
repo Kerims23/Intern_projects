@@ -1,4 +1,5 @@
 from dbm.ndbm import library
 
 
-class = library
+class library:
+    def 
