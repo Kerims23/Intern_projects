@@ -6,4 +6,6 @@ class library:
         self.books = list_of_books
 
     def display_available_books(self):
-        
+        print(f"\n {len(self.books)} Availbale books: ")
+        for book in self.books:
+            print(f"---- {book}")
