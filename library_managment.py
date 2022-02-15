@@ -5,3 +5,5 @@ class library:
     def __init__(self, list_of_books):
         self.books = list_of_books
 
+    def display_available_books(self):
+        
