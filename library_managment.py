@@ -9,3 +9,4 @@ class library:
         print(f"\n {len(self.books)} Availbale books: ")
         for book in self.books:
             print(f"---- {book}")
+        print("\n")
