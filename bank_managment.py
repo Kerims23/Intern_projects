@@ -4,7 +4,7 @@ import os
 import pathlib
 
 
-
+print("hi")
 #import colorama 
 
 #defining the first class
@@ -62,28 +62,18 @@ class Account:
 
 
 #intro screen, this is a filler for future flask maybe
-
-    # can make this a static method
-    # static methods dont need an instance of a class to be used
-    def intro():
-        print("*****************************")
-        print("*** Bank Management System ***")
-        print("*****************************")
-
-        input()
         
 
 # write account
-    def write_acc():
+    def write_acc(self):
         #pulling the class account from before and making it a variable
-        acc = Account()
-        acc.create_account()
+        self.create_account()
         #the def write_acc_file should work with this
-        write_acc_file(acc)
+        write_acc_file(acc_num)
         
         
    #this is to create the file for acct     
-    def write_acc_file(account):
+    def write_acc_file(self, account):
         #get the file
         file = pathlib.Path("accounts.data")
         if file.exists():
