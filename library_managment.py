@@ -9,3 +9,6 @@ class Library:
         for book in self.books:
             print(f"---- {book}")
         print("\n")
+
+    def borrow_book(self, name, book_name):
+        
