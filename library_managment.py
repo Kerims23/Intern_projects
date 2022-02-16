@@ -12,4 +12,5 @@ class Library:
 
     def borrow_book(self, name, book_name):
         if book_name not in self.books:
-            
+            print(f"{book_name} is not available, wait for return")
+        
