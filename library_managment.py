@@ -12,10 +12,11 @@ class Library:
 
     def borrow_book(self, name, book_name):
         if book_name not in self.books:
-            print(f"{book_name} is not available, wait for return")
+            print(f"{book_name} is not available, wait for return \n")
         else:
 #made a list here to track the books, is dictionary better here?
             track.append({name: book_name})
+            print("Successful, return the book on time in good condition \n")
 
 
 
