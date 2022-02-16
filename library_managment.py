@@ -17,7 +17,7 @@ class Library:
 #made a list here to track the books, is dictionary better here?
             track.append({name: book_name})
             print("Successful, return the book on time in good condition \n")
-
+            self.books.remove(book_name)
 
 
 
