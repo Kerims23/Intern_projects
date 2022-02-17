@@ -23,11 +23,13 @@ class Library:
 #this function is when a customer returns a book
     def return_book(self, book_name):
         print("Book Returned: Thank You \n")
+        #this is to add book into the list of books because return
         self.books.append(book_name)
 
 #this function is when a customer gives a book
     def donate_book(self, book_name):
         print("Book donated: Thank you for the donation \n")
+        
         self.books.append(book_name)
 
 
