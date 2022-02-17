@@ -20,6 +20,10 @@ class Library:
             #this should remove the book being borrowed 
             self.books.remove(book_name)
 
+    def return_book(self, bookname):
+        print("Book Returned: Thank You \n")
+        
+
 
 
 
