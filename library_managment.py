@@ -29,7 +29,8 @@ class Library:
 #this function is when a customer gives a book
     def donate_book(self, book_name):
         print("Book donated: Thank you for the donation \n")
-        
+        #this is to add book into list of books because donation
+        #idk if dictionary is better instead of list maybe
         self.books.append(book_name)
 
 
