@@ -20,12 +20,15 @@ class Library:
             #this should remove the book being borrowed 
             self.books.remove(book_name)
 
+#this function is when a customer returns a book
     def return_book(self, book_name):
         print("Book Returned: Thank You \n")
         self.books.append(book_name)
 
+
     def donate_book(self, book_name):
         print("Book donated: Thank you for the donation \n")
+        self.books.append(book_name)
 
 
 
