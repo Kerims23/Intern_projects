@@ -23,7 +23,9 @@ class Library:
     def return_book(self, bookname):
         print("Book Returned: Thank You \n")
         self.books.append(bookname)
-        
+
+    def donate_book(self, book_name)
+
 
 
 
