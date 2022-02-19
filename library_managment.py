@@ -40,6 +40,8 @@ class Student():
         print("Do you want to borrow a book?")
         self.book = input("Enter the name of the book: ")
         return self.book
+    
+    def return_book(self):
 
 
 
