@@ -44,7 +44,8 @@ class Student():
     def return_book(self):
         print("Do you want to return a book?")
         name = input("Enter your name: ")
-        self.book 
+        self.book = input("Enter the book your returning: ")
+        if
 
 
 
