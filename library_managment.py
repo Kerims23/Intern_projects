@@ -45,7 +45,10 @@ class Student():
         print("Do you want to return a book?")
         name = input("Enter your name: ")
         self.book = input("Enter the book your returning: ")
+        #not sure if i did this right
         if {name: self.book} in track:
+            track.remove({name: self.book})
+        return self.book
 
 
 
