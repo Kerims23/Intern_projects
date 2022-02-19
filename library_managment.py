@@ -36,6 +36,8 @@ class Library:
 
 #creating a new class for students 
 class Student():
+    def request_book(self):
+        
 
 
 
