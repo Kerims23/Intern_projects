@@ -39,7 +39,8 @@ class Student():
     def request_book(self):
         print("Do you want to borrow a book?")
         self.book = input("Enter the name of the book: ")
-        
+        return self.book
+
 
 
 
