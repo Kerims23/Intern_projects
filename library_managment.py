@@ -61,9 +61,7 @@ if __name__ == "__main__":
     NJIT_library = Library(
         ["Computer Science", "Economy", "Biology", "Fiction", "Non-Fiction", "Math", "Finance"]
     )
+    track = []
 
-
-
-
-
-track = []
+    print("\t\t\t Welcome to the NJIT library \n")
+    
