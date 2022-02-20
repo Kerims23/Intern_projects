@@ -56,6 +56,9 @@ class Student():
         return self.book
 
 
+if __name__ == "__main__":
+    
+
 
 
 
