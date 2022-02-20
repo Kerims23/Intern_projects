@@ -64,4 +64,5 @@ if __name__ == "__main__":
     track = []
 
     print("\t\t\t Welcome to the NJIT library \n")
+    print("Choose which option you want to do: -\n1 Listing all books \n2")
     
