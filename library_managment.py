@@ -52,8 +52,8 @@ class Student():
     
     def donate_book(self):
         print("Do you want to donate a book?")
+        self.book = input("Name of the book you want to donate: ")
         
-
 
 
 
