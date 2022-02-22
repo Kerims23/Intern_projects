@@ -69,5 +69,7 @@ if __name__ == "__main__":
 
     while(True):
         try:
+            user_reponse = int(input("Enter your choice: "))
+            
             user_response == 1:
-    
+            
