@@ -74,6 +74,8 @@ if __name__ == "__main__":
             if user_response == 1:
                 NJIT_library.display_available_books
             elif user_reponse == 2:
-                
+                NJIT_library.borrow_book
+            elif user_reponse == 3:
+                NJIT_library
 
             
