@@ -72,5 +72,6 @@ if __name__ == "__main__":
             user_reponse = int(input("Enter your choice: "))
             
             if user_response == 1:
+                NJIT_library.display_available_books
                 
             
