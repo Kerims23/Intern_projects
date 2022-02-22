@@ -61,6 +61,7 @@ if __name__ == "__main__":
     NJIT_library = Library(
         ["Computer Science", "Economy", "Biology", "Fiction", "Non-Fiction", "Math", "Finance"]
     )
+    student = Student()
     track = []
 
     print("\t\t\t Welcome to the NJIT library \n")
@@ -72,9 +73,9 @@ if __name__ == "__main__":
             user_reponse = int(input("Enter your choice: "))
             
             if user_response == 1:
-                NJIT_library.display_available_books
+                NJIT_library.display_available_books()
             elif user_reponse == 2:
-                NJIT_library.borrow_book
+                NJIT_library.borrow_book(input("Enter your name: "), student.request_book())
             elif user_reponse == 3:
                 NJIT_library
 
