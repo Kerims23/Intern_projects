@@ -77,6 +77,6 @@ if __name__ == "__main__":
             elif user_reponse == 2:
                 NJIT_library.borrow_book(input("Enter your name: "), student.request_book())
             elif user_reponse == 3:
-                NJIT_library
+                NJIT_library.return_book(student.return_book())
 
             
