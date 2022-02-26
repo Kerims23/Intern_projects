@@ -83,7 +83,8 @@ if __name__ == "__main__":
                     for key, value in obj.items:
                         holder = key
                         book = value
-                        
+                        print(f"{book} this book is taken by {holder}")
+
 
 
             
