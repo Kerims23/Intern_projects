@@ -79,7 +79,8 @@ if __name__ == "__main__":
             elif user_reponse == 3:
                 NJIT_library.return_book(student.return_book())
             elif user_reponse == 4:
-                for i in track:
+                for obj in track:
+                    for key, value in obj.items
 
 
             
