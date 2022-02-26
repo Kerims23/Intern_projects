@@ -85,6 +85,8 @@ if __name__ == "__main__":
                         book = value
                         print(f"{book} this book is taken by {holder}")
                 print("\n")
+                if len(track) == 0 
+                
 
 
 
