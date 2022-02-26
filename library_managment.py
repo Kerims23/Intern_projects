@@ -82,6 +82,8 @@ if __name__ == "__main__":
                 for obj in track:
                     for key, value in obj.items:
                         holder = key
+                        book = value
+                        
 
 
             
