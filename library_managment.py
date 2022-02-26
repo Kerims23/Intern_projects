@@ -84,6 +84,7 @@ if __name__ == "__main__":
                         holder = key
                         book = value
                         print(f"{book} this book is taken by {holder}")
+                print("\n")
 
 
 
