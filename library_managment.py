@@ -80,7 +80,8 @@ if __name__ == "__main__":
                 NJIT_library.return_book(student.return_book())
             elif user_reponse == 4:
                 for obj in track:
-                    for key, value in obj.items
+                    for key, value in obj.items:
+                        holder = key
 
 
             
