@@ -92,7 +92,9 @@ if __name__ == "__main__":
                 print("Thank You! \n")
                 exit()
             
-            
+            else:
+                print("Invalid Input \n")
+                
 
 
 
