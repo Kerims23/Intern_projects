@@ -89,7 +89,10 @@ if __name__ == "__main__":
                     print("No books are taken \n")
 
             elif user_response == 6:
-                
+                print("Thank You! \n")
+                exit()
+            
+            
 
 
 
