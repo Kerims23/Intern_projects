@@ -94,8 +94,8 @@ if __name__ == "__main__":
             
             else:
                 print("Invalid Input \n")
-                
-
+        except Exception as e:
+            print(f"{e}----- invalid input: \n")
 
 
 
