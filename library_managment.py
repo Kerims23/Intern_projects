@@ -70,15 +70,15 @@ if __name__ == "__main__":
 
     while(True):
         try:
-            user_reponse = int(input("Enter your choice: "))
+            user_response = int(input("Enter your choice: "))
             
             if user_response == 1:
                 NJIT_library.display_available_books()
-            elif user_reponse == 2:
+            elif user_response == 2:
                 NJIT_library.borrow_book(input("Enter your name: "), student.request_book())
-            elif user_reponse == 3:
+            elif user_response == 3:
                 NJIT_library.return_book(student.return_book())
-            elif user_reponse == 4:
+            elif user_response == 4:
                 for obj in track:
                     for key, value in obj.items:
                         holder = key
@@ -99,5 +99,3 @@ if __name__ == "__main__":
 
 
 
-            
-#test commit
