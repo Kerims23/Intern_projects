@@ -1,5 +1,7 @@
+from nis import cat
 from sre_parse import _TemplateType
-from flask import Blueprint, render_template, request
+from unicodedata import category
+from flask import Blueprint, render_template, request, flash
 
 auth = Blueprint('auth',__name__)
 
@@ -23,16 +25,16 @@ def signup():
         password2 = request.form.get('password2')
         #check if valid
         if len(email) < 4:
-            pass
+            flash('Email must be greater than 3 characters', category='error')
         elif len(firstName) < 2:
-            pass
+            flash('first name must be greater than 1 characters', category='error')
         elif password1 != password2:
-            pass
+            flash('passwords do not match', category='error')
         elif len(password1) <7:
-            pass
+            flash('password must be greater than 6 characters', category='error')
         else:
             #add user to database
-            pass
+            flash('Account created!', category='success')
 
 
     return render_template("sign_up.html")
