@@ -36,6 +36,11 @@
       </div>
     </nav>
 
+<!--this is where we make the flash messages appear-->
+    {% wtih messages = get_flashed_messages(with_categories = true) %}
+
+
+
     <div class=""container">
     {% block content %}
     {% endblock %}

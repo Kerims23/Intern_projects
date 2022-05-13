@@ -35,7 +35,7 @@ def signup():
         else:
             #add user to database
             flash('Account created!', category='success')
-
+#flash messages do not currently display 
 
     return render_template("sign_up.html")
 
