@@ -27,11 +27,13 @@
       <div class ="collapse navbar-collapse" id="navbar">
         <div class="navbar-nav">
           <!--edit-->
+            {% if user.is authenticated %}
+            <a class="nav-item nav-link" id="home" href="/home"></a>
+            <a class="nav-item nav-link" id="logout" href="/logout"></a>
+            {% else %}
             <a class="nav-item nav-link" id="login" href="/login"></a>
             <a class="nav-item nav-link" id="sign-up" href="/sign-up"></a>
-            <a class="nav-item nav-link" id="logout" href="/logout"></a>
-            <a class="nav-item nav-link" id="home" href="/home"></a>
-
+            {% endif %}
           </div>
       </div>
     </nav>
