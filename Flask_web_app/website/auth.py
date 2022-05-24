@@ -31,13 +31,16 @@ def login():
     data = request.form
     print(data)
     #data will be printed as a immutable dicted object in the terminal
-    return render_template("login.html", text="Testing", user="Kerim", boolean=True)
+    return render_template("login.html", user = current_user)
+
 
 @auth.route('/logout')
 @login_required
 def logout():
     logout_user()
     return redirect(url_for('auth.login'))
+
+
 @auth.route('/sign-up', methods=['GET', 'POST'])
 def signup():
     if request.method =='POST':
@@ -67,5 +70,5 @@ def signup():
             return redirect(url_for('views.home'))
 #flash messages do not currently display 
 
-    return render_template("sign_up.html")
+    return render_template("sign_up.html", user = current_user)
 
